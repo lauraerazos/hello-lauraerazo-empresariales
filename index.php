@@ -3,7 +3,7 @@
   <title>Prueba Heroku Laura</title>
  </head>
  <body>
- <?php echo '<p>Hola Laura</p>'; ?>
+ <?php echo '¡Hola' . htmlspecialchars($_GET["nombre"]) . '!'; ?>
  </body>
 </html>
 
